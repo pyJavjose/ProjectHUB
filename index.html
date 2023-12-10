@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge"> 
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <title>Jose's Portfolio Website</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+<body>
+
+    <div id = "header"> 
+        <div class="container">
+            <nav> 
+                <img src = "newVenus.jpg" class = "logo">
+                <ul>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Projects</a></li>
+                   <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Hello, future recruiters!</p>
+                <h2>My name is <span>Jose Franco</span></h2>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-cal-1">
+                    <img src="newJoselol.jpg">
+                </div>
+                <div class="about-cal-2">
+                    <h1 class = "subtitle">About Me </h1>
+                    <p>Hello again, I am a computer science major that dreams of being a software engineer or ANYTHING within my degree. I come from hispanic descent and a very prideful family that breaks their backs working hard to achieve their goals and ambitions. I'm very grateful to havwe those traits passed down to me and I am comitted to continue making new limits for myself and others.
+                     From playing soccer for 14 years of my life, to spending hours in the gym achieving my own personal goals. Matter of fact, a little fun fact about me is that I am a powerlifter who recently won thier competetion in Anahiem which I am very proud of. 
+                     I am 19 years old and aspire to be someone in the tech field as it facinates me so much. I hope you enjoy seeing my website! </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick = "opentab('Skills')">Skills</p>
+                        <p class="tab-links"onclick = "opentab('Experience')">Experience</p>
+                        <p class="tab-links"onclick = "opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab"id = "Skills">
+                        <ul>
+                         <li><span>Database Management</span><br>MySQL, SQLite3, database design, schema creation, querying, and maintainence</li>
+                         <li><br></li>
+                         <li><span>UI/UX</span><br>Designing intuitive and visually appealing user interfaces. Experienced in user research, wireframing, and usability testing</li>
+                         <li><br></li>
+                         <li><span>C++ and Java coding</span><br>Skilled in object oriented programming, deep understanding of data structures, algorithms and code opitmization techniques</li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id = "Experience">
+                        <ul>
+                         <li><span>JBotGBT</span><br>Development of personalized chatbot utilizing SQLite3 for data storage, retrival, and management. Implemented features such as chat logging, and dynamic response generation.<br></li>
+                         <li><br></li>
+                         <li><span>2023-Current</span><br>UX/UI: Lead the development and design for this website, as well as 
+                        JBotGBT which showcases proficieny in API implementation. </li>
+                         <li><br></li>
+                         <li><span>2022-Current</span><br>Developed and implemented solutions in C++ and Java (Casino Game Design, ie Roulette, Slots, and Blackjack) showcasing expertise in algorithm implementation as well as data structure optimization</li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id = "Education">
+                        <ul>
+                         <li><span>Riverside City College</span><br>CIS-5 C++ Programming, CIS17A C++ Programming II, Gen-ED</li>
+                         <li><br></li>
+                         <li><span>Long Beach City College</span><br>CS-21 Intro to Java Programming, Gen-ED</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div id="services">
+    <div id="container">
+        <h1 class = "subtitle">Project(s)</h1>
+        <div id="projects-list">
+            <div>
+                <h2>JBotGBT</h2>
+                <p>JBotGBT is very personalized chat bot that utuilizes the db files from 
+                    my own personal MacBook. 
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) 
+        { 
+            for (tablink of tablinks) 
+            { 
+                tablink.classList.remove("active-link"); 
+
+            }
+            for (tabcontent of tabcontents) 
+            { 
+                tabcontent.classList.remove("active-tab"); 
+
+            }
+            event.currentTarget.classList.add("active-link"); 
+            document.getElementById(tabname).classList.add("active-tab"); 
+
+        }
+
+    </script>
+</body>
+</html>
