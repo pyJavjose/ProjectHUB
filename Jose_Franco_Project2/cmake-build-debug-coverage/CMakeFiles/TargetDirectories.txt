@@ -1,0 +1,3 @@
+C:/Users/jfran/cis_5athome/Jose_Franco_Project2/cmake-build-debug-coverage/CMakeFiles/sdl_test.dir
+C:/Users/jfran/cis_5athome/Jose_Franco_Project2/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
+C:/Users/jfran/cis_5athome/Jose_Franco_Project2/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir

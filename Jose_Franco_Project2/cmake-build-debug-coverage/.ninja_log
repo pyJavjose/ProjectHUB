@@ -1,0 +1,11 @@
+# ninja log v5
+6	514	7242019026286622	CMakeFiles/sdl_test.dir/main.cpp.obj	7ca0cc8bd1e07fd8
+7	1409	7242010872972891	CMakeFiles/sdl_test.dir/pong.cpp.obj	16b2c3820a7d2f3c
+0	1530	7242010874182326	CMakeFiles/sdl_test.dir/snake.cpp.obj	63b499f8371a3c26
+1530	1620	7242010875060148	sdl_test.exe	7a9f5b7b46f46fd9
+11	1623	7242030397115032	CMakeFiles/sdl_test.dir/pong.cpp.obj	16b2c3820a7d2f3c
+4	1643	7242030397325247	CMakeFiles/sdl_test.dir/main.cpp.obj	237a670d63c98bae
+7	1813	7242030399021260	CMakeFiles/sdl_test.dir/snake.cpp.obj	63b499f8371a3c26
+1814	1921	7242030400075652	sdl_test.exe	7a9f5b7b46f46fd9
+2	1058	7243016763841409	CMakeFiles/sdl_test.dir/main.cpp.obj	237a670d63c98bae
+1060	1235	7243016765564879	sdl_test.exe	7a9f5b7b46f46fd9
